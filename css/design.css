@@ -440,21 +440,21 @@ video {
 #about {
     color: #fff;
     top: 405%;
-    background: url("Imagens/linkedin.png");
+    background: url("linkedin.png");
     background-position: right;
     background-repeat: no-repeat;
 }
 
 #blog {
     top: 413%;
-    background: url("Imagens/facebook.png");
+    background: url("facebook.png");
     background-position: right;
     background-repeat: no-repeat;
 }
 
 #projects {
     top: 421%;
-    background: url("Imagens/github.png");
+    background: url("github.png");
     background-position: right;
     background-repeat: no-repeat;
 }
