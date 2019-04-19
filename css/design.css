@@ -59,10 +59,11 @@ section, summary, time, mark, audio, video {
 }
 
 .conteiner-button{
-    flex-flow: wrap;
-    min-height: 10vh;
-    align-items: center;
-    margin-left: 10px;
+  flex-flow: column;
+  min-height: 12vh;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 .conteiner-button2{
