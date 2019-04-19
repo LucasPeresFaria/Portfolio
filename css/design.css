@@ -181,6 +181,12 @@ section, summary, time, mark, audio, video {
     
   }
 
+  .feature-bloco{
+    padding: 30px 5px 20px 10x;  
+      line-height: 1.5;
+       text-align: justify;
+}
+
 /*---------------------media----------------------*/
 
 @media (min-width: 768px) {
@@ -204,15 +210,15 @@ section, summary, time, mark, audio, video {
     max-height:250px;
     width: auto;
     height: auto;
-    padding: 25px 100px 10px 1px;  
+    padding: 25px 50px 10px 10px;  
 
-	left: 40%;
-	top: 155%
+	left: 10%;
+	top: 146%
       
   }
    
     .feature-bloco{
-      padding: 25px 100px 10px 20px;  
+      padding: 25px 10x 10px 20px;  
         line-height: 1.5;
          text-align: justify;
   }
