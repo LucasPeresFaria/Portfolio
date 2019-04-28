@@ -111,19 +111,23 @@ video {
 /*---------------Menu-------------------*/
 
 #navbar {
-    overflow: hidden;
     background-color: rgb(90, 80, 80);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
 }
 
 #navbar a {
-    background-color: rgb(90, 80, 80);
     float: left;
     display: block;
+    background-color: rgb(90, 80, 80);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    align-items: center;
 }
 
 #navbar a:hover {
@@ -322,11 +326,17 @@ video {
     padding: 10px 10px 20px 10px;
 }
 
-.bloco-esq {text-align: center;}
+.bloco-esq {
+    text-align: center;
+}
 
-.bloco-meio {text-align: center;}
+.bloco-meio {
+    text-align: center;
+}
 
-.bloco-dir {text-align: center;}
+.bloco-dir {
+    text-align: center;
+}
 
 /*---------------------media----------------------*/
 
@@ -389,7 +399,7 @@ video {
 
     .bloco-meio {
         padding: 1% 15% 5% 10%;
-        
+
     }
 
     .bloco-dir {
